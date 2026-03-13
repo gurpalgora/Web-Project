@@ -1,0 +1,45 @@
+ .container{
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(0,0,0,0.8);
+            color: white;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            align-items: center;
+            gap: 0px;
+            height: 60px;
+
+        }
+        .container img{
+            height: 30px;
+            cursor: pointer;
+        }
+        .container button{
+            background-color: rgb(0,0,0,0.0);
+            color: white;
+            border: none;
+            font-size: 17px;
+            font-weight: 540;
+            cursor: pointer;
+        }
+        .mla{
+            margin-right:200px;
+            cursor: pointer;
+        }
+        .tl-a{
+            background-color:#e60278 ;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .bars{
+            cursor: pointer;
+        }
+        .phone img{
+            margin-right: auto;
+        }
+        .phone button{
+            margin-left: auto;
+        }
