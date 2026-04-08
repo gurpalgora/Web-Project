@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: 22vh 22vh 22vh 22vh;
+            gap: 9px;
+            color:black;
+            background-color: white;
+        }
+        div{
+            background-color:rgb(149, 248, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="grid-column:2 / 6;" class="navbar">Navbar</div>
+        <div style="grid-row: 1 / 8;" class="sidedar">sidebar</div>
+        <div style="grid-column: 6/ 8; background-color: rgb(255, 63, 63);" class="navbar-a">nvabar-a</div>
+        <div style="grid-row: 2/ 8; grid-column: 6/ 8;" class="content">content</div>
+        <div style="grid-column: 2/ 4 ; background-color: rgb(255, 181, 44); grid-row: 2/4;" class="content-a">content-a</div>
+        <div style="grid-column: 4/6;background-color: rgb(255, 70, 70);  grid-row: 2/4" class="content-b">content-b</div>
+        <div style="grid-column: 2/4; background-color: rgb(255, 75, 75); grid-row: 4/8" class="content-c">content-c</div>
+        <div style="grid-column: 4/6 ;background-color: rgb(255, 191, 72); grid-row: 4/8;" class="content-d">content-d</div>
+    </div>
+</body>
+</html>

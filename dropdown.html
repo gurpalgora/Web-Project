@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .drop{
+            position: relative;
+            display: inline-block;
+            margin: 180px 450px auto;
+        }
+        .drop button{
+            padding: 10px;
+            font-size: 14px;
+            background-color: green;
+            cursor: pointer;
+            border: 2px solid green;
+            border-radius: 6px;
+            color: white;
+        }
+        .content{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .content div{
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+        }
+        .drop:hover .content{
+            display: block;
+            transition: 0.2s;
+        }
+        .content div:hover{
+            background-color: #f1f1f1;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="drop">
+        <button>dropdown menu</button>
+        <div class="content">
+            <div>footwear</div>
+             <div>jeans</div>
+             <div>T-shirts</div>
+             <div>Shirts</div>
+             <div>Pents</div>
+             <div>Perfume</div>
+             <div>Watch</div>
+        </div>
+    </div>
+</body>
+</html>
