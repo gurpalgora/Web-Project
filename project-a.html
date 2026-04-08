@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+        }
+        @media(min-width: 1023px){
+            .tab, .phone{display: none;}
+        }
+    @media(min-width:769px) and (max-width:1023px){
+        .lap, .phone{display: none;}
+
+    }
+    @media(max-width:768px){
+        .tab, .lap{display: none;}
+    }
+     </style>
+    </head>
+<body>
+   <div class="lap">
+     <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fiverr_Logo_09.2020.svg/3840px-Fiverr_Logo_09.2020.svg.png"alt="">
+       <div class="input-container">
+        <input placeholder="Search" type="text">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+       </div>
+       <div class="btn">
+        <button>Fiverr pro</button>
+        <button>Explore</button>
+        <button><i class="fa-solid fa-globe"></i>EN</button>
+        <button>Become a Seller</button>
+        <button>Sign in</button>
+    </div>
+    <button class="mla">Join</button>
+</div>
+
+   </div>
+
+   <div class="tab">
+     <div class="container">
+        <i class="fa-solid fa-bars"></i>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fiverr_Logo_09.2020.svg/3840px-Fiverr_Logo_09.2020.svg.png"alt="">
+       <div class="btn">
+        <button>Fiverr pro</button>
+        <button>Explore</button>
+        <button><i class="fa-solid fa-globe"></i>EN</button>
+        <button>Sign in</button>
+    </div>
+    <button class="mla">Join</button>
+</div>
+
+   </div>
+
+   <div class="phone">
+     <div class="container">
+        <i class="fa-solid fa-bars"></i>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fiverr_Logo_09.2020.svg/3840px-Fiverr_Logo_09.2020.svg.png"alt="">
+       <div class="btn">
+        <button>Sign in</button>
+    </div>
+    <button class="mla">Join</button>
+</div>
+   </div>
+</body>
+</html>

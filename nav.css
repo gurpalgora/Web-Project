@@ -1,0 +1,54 @@
+
+            .container{
+                display: flex;
+                gap: 20px;
+                padding: 20px;
+                box-shadow: 0 0 10px black;
+                align-items: center;
+            }
+            .container img {
+                height: 20px;
+                cursor: pointer;
+            }
+            i{
+                cursor: pointer;
+            }
+            .ml-a{
+                margin-left: auto;
+                cursor: pointer;
+            }
+
+            .inp-container{
+                display: flex;
+            }
+            .inp-container input{
+                width: 500px;
+                height: 2.8rem;
+                border-radius: 25px 0px 0px 25px;
+                padding-left: 10px;
+                border: 1px solid gray;
+            }
+            
+            .inp-container button{
+                padding: 10px 15px;
+                border: 1px solid gray;
+                border-left: none;
+                border-radius: 0px 25px 25px 0px;
+                cursor: pointer;
+            }
+
+
+            .mic{
+                border-radius: 50%;
+                padding: 15px;
+                border: 1px solid gray;
+                cursor: pointer;
+            }
+
+            .sign-in{
+                color: blue;
+                border: 1px solid gray;
+                padding: 10px 20px;
+                border-radius: 20px;
+                cursor: pointer;
+            }

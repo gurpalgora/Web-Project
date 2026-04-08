@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav{
+             display: grid;
+             grid-template-columns: repeat(7,1fr);
+             grid-template-rows: 6rem 85vh;
+             column-gap: 10px;
+        }
+        .yt-nav{
+            grid-column: 1 / 8;
+        }
+        .sidebar{
+            display: flex;
+            padding: 20px;
+            overflow-y: scroll;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .sidebar div{
+            cursor: pointer;
+        }
+        .content{
+            grid-column: 2 / 8;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+        <div class="nav">
+            <div class="yt-nav">
+             <div class="container">
+            <div><i class="fa-bars fa-solid"></i></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnsGiPB4JytyETefvvKpp2TXH1VI6BpoBIAA&s" alt=""></div>
+            <div class="ml-a inp-container">
+                <input type="text" placeholder="Search">
+                <button ><i class="fa-search fa-solid"></i></button>
+            </div>
+            <div>
+                <button class="mic">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+                </div>
+            <div class="ml-a"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div>
+                <button class="sign-in">Sign in</button>
+            </div>
+        </div>
+            
+        </div>
+        <div class="sidebar">
+            <div><i class="fa-regular fa-house"></i>Home</div>
+            <div><i class="fa-solid fa-play"></i>Shorts</div>
+            <hr>
+            You
+            <div><i class="fa-solid fa-clock-rotate-left"></i>History</div>
+            <div><i class="fa-solid fa-bars-staggered"></i>Playlists</div>
+            <div><i class="fa-regular fa-clock"></i>Watch later</div>
+            <div><i class="fa-regular fa-thumbs-up"></i>Like Vedio</div>
+            <div><i class="fa-solid fa-download"></i>Download</div>
+               <hr>
+               Explore
+            <div><i class="fa-solid fa-bag-shopping"></i>Shopping</div>
+            <div><i class="fa-regular fa-circle-play"></i>Music</div>
+            <div><i class="fa-regular fa-circle-play"></i>Movie</div>
+            <div><i class="fa-regular fa-comment"></i>Feedback</div>
+        
+
+        </div>
+        <div class="content">
+
+        </div>
+</body>
+</html>
