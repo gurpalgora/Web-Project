@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*laptop*/
+        @media(min-width:1024px){
+            .phone, .tab{display: none;}
+        }
+        /* Tablet */
+        @media(min-width:769px) and (max-width:1023px){
+            .phone, .lap{display: none;}
+        }
+        /* Phone */
+        @media(max-width:768px){
+            .lap, .tab{display: none;}
+        }
+    </style>
+</head>
+<body>
+    <div class="lap">
+        <h1>laptop</h1>
+    </div>
+    <div class="tab">
+        <h1>tablet</h1>
+    </div>
+    <div class="phone">
+        <h1>phone</h1>
+    </div>
+</body>
+</html>
