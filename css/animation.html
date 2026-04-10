@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(22, 22, 22)
+        }
+        .loader{
+            margin: auto;
+            margin-top: 20%;
+            border: 5px solid rgb(71, 71, 255);
+            animation-name: dc;
+            animation-duration: 1.7s;
+            animation-timing-function: ease-out;
+            border-top: 5px solid grey;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            animation-iteration-count: infinite
+        }
+        @keyframes dc{
+            from{
+                rotate: 0deg;
+            }
+            to{
+                rotate: 360deg;
+            }
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="loader"></div>    
+</body>
+</html>
