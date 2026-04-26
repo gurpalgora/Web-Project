@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         }
+        @media (min-width:1024px){
+            .tab, .phone{display: none;}
+        }
+        @media(min-width:769px) and (max-width:1023px){
+            .lap, .phone{display: none;}
+        }
+        @media(max-width:768px){
+            .lap, .tab{display: none;}
+        }
+    </style>
+</head>
+<body>
+    <div class="lap">
+        <div class="navbar">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" alt="">
+            <div class="hom-e"><i class="fa-regular fa-house"></i></div> 
+         <div class="input-navbar">
+             <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input placeholder="What do you want to play?" type="text">
+         </div>
+         <button class="mla">Explore Premium</button>
+         <button class="la">Install App</button>
+         <div class="btn">
+            <button><i class="fa-solid fa-bell"></i></button>
+            <button class="insert"><i class="fa-solid fa-users"></i></button>
+            <button><i class="fa-solid fa-circle-user"></i></button>
+         </div>
+      </div>
+    </div>
+    <div class="tab">
+        <div class="navbar">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" alt="">
+            <div class="hom-e"><i class="fa-regular fa-house"></i></div> 
+         <div class="input-navbar">
+             <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input placeholder="What do you want to play?" type="text">
+         </div>
+         <button class="mla">Explore Premium</button>
+         <div class="btn">
+            <button><i class="fa-solid fa-bell"></i></button>
+            <button><i class="fa-solid fa-circle-user"></i></button>
+         </div>
+    
+    </div> 
+    </div>
+    <div class="phone">
+         <div class="navbar">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" alt="">
+            <div class="hom-e"><i class="fa-regular fa-house"></i></div> 
+         <div class="input-navbar">
+             <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input placeholder="What do you want to play?" type="text">
+         </div>
+            <div class="ba-rs">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+         <div class="btn">
+            <button><i class="fa-solid fa-circle-user"></i></button>
+         </div>
+    
+    
+    </div>
+    </div>
+</body>
+</html>

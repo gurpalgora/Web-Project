@@ -1,0 +1,152 @@
+   .navbar{
+            display: flex;
+            background-color: rgb(0,0,0,0.9);
+            box-shadow: 0 0 10px black;
+            padding: 12px;
+            height: 48px;
+            align-items: center;
+            gap:20px;
+            justify-content: space-between;
+
+
+         }
+         img{  
+            height: 32px;
+            margin-left: 9px;
+            cursor: pointer;
+         }
+         i{
+            font-size: 20px;
+            cursor: pointer;
+         }
+         .input-navbar{
+            margin-right: auto;
+            display: flex;
+            border-radius: 22px;
+            overflow: hidden;
+            
+           
+            
+        }
+        .input-navbar:focus-within{
+            outline: 2px solid rgb(255, 248, 248);
+            transition: 0.2s;
+        }
+        
+        input{
+            width: 365px;
+            height: 47px;
+            padding-left: 10px;
+            color: white;
+            font-size: 15px;
+            background-color: rgb(68, 68, 68);
+            border-radius:0px 22px 22px 0px;
+            outline: none;
+            border-left: none;
+            border:none;
+            flex: 1;
+           
+          
+        }
+        .input-navbar button{
+           background-color: rgb(68, 68, 68);
+            color:rgb(175, 175, 175);
+            border-radius: 22px 0px 0px 22px;
+            border: 1px solid rgb(0,0,0,0.1);
+            outline: none;
+            align-items: center;
+            overflow: hidden;
+            border-right: none;
+             padding-left: 10px;
+             cursor: pointer;
+             transition:all 0.3s linear;
+          
+             
+         }
+         .input-navbar button:hover{
+            transform: scale(1.00.00);
+            color: white;
+            overflow: hidden;
+         }
+         input::placeholder{
+            color: rgb(190, 190, 190);
+            font-size: 16.5px;
+         }
+            
+          .btn{
+                align-items: center;
+            }
+            
+            .btn button{
+            font-size: 5px;
+            margin-inline: 15px;
+            background-color: rgb(65, 64, 64);
+            color: white;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            border-radius: 16px;
+            transition:all 0.3s linear;
+            
+        }
+        .btn button:hover{
+             transform: scale(1.04,1.04);
+        }
+       
+        .mla{
+            background-color:white;
+            color: black;
+            padding: 8px;
+            border-radius: 1.5rem;
+            font-size: 14px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            transition:all 0.3s linear;
+            
+        }
+        .mla:hover{
+            transform: scale(1.04,1.04);
+        
+            
+        }
+        .la{
+            padding: 7px;
+            background-color: rgb(0,0,0,0);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            border: none;
+             border-radius: 0.5rem;
+             cursor: pointer;
+             transition:all 0.3s linear;
+        }
+        .la:hover{
+             transform: scale(1.04,1.04);
+        }
+        
+        
+        .hom-e{
+            color: white;
+            font-size: 18px;
+            
+        }
+       
+        .phone input{
+            width: 230px;
+            
+        }
+        .ba-rs i{
+            color: white;
+        }
+        .tab input{
+            width: 280px;
+        }
+         
+        .phone .input-navbar input{
+            padding-inline: 2px;
+            
+        }
+
+        
+        
