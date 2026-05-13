@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="inp"> <br>
+    <button onclick="fpush()">push</button>
+    <button onclick="fpop()">pop</button>
+    <button onclick="fshift()">shift</button>
+    <button onclick="funshift()">unshift</button>
+      <p id="para"></p>
+      <script>
+        let para =document.getElementById("para");
+        let inp =document.getElementById("inp");
+        let arr =[2,3,4,5,6,7,90,"apple"]
+
+        function fpush(){
+          arr.push(inp.value)
+          console.log(arr)
+          para.innerHTML=arr
+
+        }
+
+          function fpop(){
+          arr.pop(inp.value)
+          console.log(arr)
+          para.innerHTML=arr
+
+        }
+
+          function fshift(){
+          arr.shift(inp.value)
+          console.log(arr)
+          para.innerHTML=arr
+
+        }
+
+          function funshift(){
+          arr.unshift(inp.value)
+          console.log(arr)
+          para.innerHTML=arr
+
+        }
+
+         para.innerHTML=arr
+
+        // arr.push("mango") 
+        // arr[6]=26; line number update
+        // arr.splice(8,0,"Gurpal gora") middle updation
+
+       
+
+        // arr.unshift("pineapple")
+        // document.write(arr);
+      </script>
+</body>
+</html>
