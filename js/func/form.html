@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="func(event)">
+     Email <input type="email" id="email">
+     Password <input type="password" id="password">
+        <button>summit</button>
+
+        <script>
+            let user = {
+                name:"abc",
+                email:"abc@gmail.com",
+                password:1234,
+
+            }
+            let email=document.getElementById("email")
+            let password=document.getElementById("password")
+            function func(e){
+                console.log(email.value,password.value)
+                console.log(user)
+                e.preventDefault()
+                if(
+                    email.value==user.email&& password.value==user.password
+                ){
+                    alert("login successful  welcome \n" +user.name)
+                }
+                else{
+                    alert("login unsuccessful")
+                }
+            }
+        </script>
+    </form>
+</body>
+</html>
