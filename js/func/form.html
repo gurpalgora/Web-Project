@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Now</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #registerform{
+            display: none;
+           
+        }
+
+        h1 {
+            text-align: center;
+            margin: 50px;
+            margin-left: auto;
+            margin-top: 27px;
+            text-transform: capitalize;
+        }
+        
+        form {
+            margin: 50px 27%;
+            box-shadow: 0 0 6px black;
+            margin-top: 90px;
+            height: 335px;
+            padding: 15px;
+            width: 400px;
+            border-radius: 18px;
+        }
+
+        button {
+            cursor: pointer;
+            margin: 30px 105px;
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid grey;
+            text-transform: capitalize;
+        }
+
+        input {
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+
+        <button onclick="toggle('login')">Login</button>
+        <button onclick="toggle('register')">Register</button id="registerform">
+    
+    <form onsubmit="func(event)" id="login">
+        <h1>LOGIN PAGE</h1>
+        Email Id ::<input type="email" id="email" required> <br>
+        Password :<input type="password" id="password" required> <br>
+        <button>Submit</button>
+    </form>
+    
+    <form onsubmit="regfunc(event)" id="registerform">
+        <h1>REGISTER NOW</h1>
+        Name : <input type="text" name="" id="rname" required> <br>
+        Email Id ::<input type="email" id="remail" required> <br>
+        Password :<input type="password" id="rpassword" required> <br>
+        <button>Submit</button>
+
+    </form>
+<!-- </div> -->
+
+    <script>
+         let email = document.getElementById("email")
+         let password = document.getElementById("password")
+         let users = [
+            {
+                name: "Gurpal",
+                email: "xyz@gmail.com",
+                password: 1234,
+            }
+
+          ]
+        let logmode = false
+        let login = document.getElementById("login")
+        let register = document.getElementById("registerform")
+        function toggle(tag) {
+            logmode = !logmode
+            if (tag!="login") {
+                login.style.display = "none"
+                registerform.style.display = "block"
+
+            } else {
+                login.style.display = "block"
+                registerform.style.display = "none"
+
+            }
+        }
+        function func(e) {
+            console.log(email.value, password.value);
+            let userfound = users.find(function (v, k) {
+                return v.email == email.value && v.password == password.value
+            })
+            console.log("userfound");
+            e.preventDefault()
+            if (userfound) {
+                let otp = Math.trunc(Math.random() * 10000)
+                alert("otp is :" + otp)
+                let myotp = prompt("enter otp")
+                if (otp == myotp) {
+                    alert("Login successful  welcome \n " + user.name)
+                } else {
+                    alert("lnvaild OTP")
+                }
+            } else {
+                alert("Invaild credentails")
+            }
+        }
+        function regfunc(e){
+            e.preventDefault()
+            let user={
+                name:document.getElementById("rname").value,
+                email:document.getElementById("remail").value,
+                password:document.getElementById("rpassword").value,
+            }
+            console.log(user);
+            users.push(user)
+        }
+    </script>
+
+</body>
+</html>
