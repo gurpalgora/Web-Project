@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    <h1 style="color: white; margin: 200px 450px;"></h1>
+    <script>
+        const now = new Date()
+        const h1= document.querySelector("h1")
+        h1.textContent =`${now.getHours}:${now.getMinutes}: ${now.getSeconds}`
+        setInterval(()=>{
+            let now =new Date()
+             h1.textContent =`${now.getHours}:${now.getMinutes}: ${now.getSeconds}`
+             let hours=String(now.getHours()).padStart(2,"0");
+             let minutes=String(now.getMinutes()).padStart(2,"0");
+             let seconds=String(now.getSeconds()).padStart(2,"0");
+              h1.textContent=`${hours}:${minutes}:${seconds}`
+        },1000)
+    </script>
+</body>
+</html>
