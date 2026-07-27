@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       async function sheet(){
+            const  data= await fetch('data.json')
+            const promise=await data.json()
+            console.log(data)
+            console.log(promise)
+        }
+        sheet()
+    </script>
+</body>
+</html>
