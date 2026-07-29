@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Beetroot",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000045_20-fresho-beetroot.jpg?tr=w-154,q-80",
+    "brand": "Fresh Farms",
+    "categories": "Root Vegetable",
+    "originalPrice": 40,
+    "discountPrice": 32,
+    "units": "1 kg"
+  },
+  {
+    "id": 2,
+    "name": "Capsicum",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000067_27-fresho-capsicum-green.jpg?tr=w-154,q-80",
+    "brand": "Green Basket",
+    "categories": "Fruit Vegetable",
+    "originalPrice": 60,
+    "discountPrice": 48,
+    "units": "1 kg"
+  },
+  {
+    "id": 3,
+    "name": "coriander without roots",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000326_17-fresho-coriander-leaves.jpg?tr=w-154,q-80",
+    "brand": "Nature Fresh",
+    "categories": "Bulb Vegetable",
+    "originalPrice": 50,
+    "discountPrice": 42,
+    "units": "1 kg"
+  },
+  {
+    "id": 4,
+    "name": "Lady Finger",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000142_21-fresho-ladies-finger.jpg?tr=w-154,q-80",
+    "brand": "Organic Valley",
+    "categories": "Root Vegetable",
+    "originalPrice": 80,
+    "discountPrice": 68,
+    "units": "500 g"
+  },
+  {
+    "id": 5,
+    "name": "onion",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000150_21-fresho-onion.jpg?tr=w-154,q-80",
+    "brand": "Fresh Choice",
+    "categories": "Leafy Vegetable",
+    "originalPrice": 45,
+    "discountPrice": 36,
+    "units": "1 pc"
+  },
+  {
+    "id": 6,
+    "name": "Tamato-Hybrid",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000200_21-fresho-tomato-hybrid.jpg?tr=w-154,q-80",
+    "brand": "Farm Fresh",
+    "categories": "Flower Vegetable",
+    "originalPrice": 55,
+    "discountPrice": 45,
+    "units": "1 pc"
+  },
+  {
+    "id": 7,
+    "name": "Palak without roots",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000187_15-fresho-palak-cleaned-without-roots.jpg?tr=w-154,q-80",
+    "brand": "Green Leaf",
+    "categories": "Leafy Vegetable",
+    "originalPrice": 30,
+    "discountPrice": 25,
+    "units": "250 g"
+  },
+  {
+    "id": 8,
+    "name": "cauliflower",
+    "img": "https://www.bbassets.com/media/uploads/p/m/40205742_3-fresho-cauliflower-small.jpg?tr=w-154,q-80",
+    "brand": "Healthy Harvest",
+    "categories": "Fruit Vegetable",
+    "originalPrice": 70,
+    "discountPrice": 58,
+    "units": "1 kg"
+  },
+  {
+    "id": 9,
+    "name": "Patato",
+    "img": "https://www.bbassets.com/media/uploads/p/m/40320937_4-fresho-potato-fresh-crop.jpg?tr=w-154,q-80",
+    "brand": "Fresh Farms",
+    "categories": "Fruit Vegetable",
+    "originalPrice": 75,
+    "discountPrice": 62,
+    "units": "500 g"
+  },
+  {
+    "id": 10,
+    "name": "Ginger",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000119_20-fresho-ginger.jpg?tr=w-154,q-80",
+    "brand": "Nature Basket",
+    "categories": "Fruit Vegetable",
+    "originalPrice": 120,
+    "discountPrice": 99,
+    "units": "500 g"
+  },
+  {
+    "id": 11,
+    "name": "Curry Leaves",
+    "img": "https://www.bbassets.com/media/uploads/p/m/10000105_18-fresho-curry-leaves.jpg?tr=w-154,q-80",
+    "brand": "Organic Fresh",
+    "categories": "Fruit Vegetable",
+    "originalPrice": 40,
+    "discountPrice": 34,
+    "units": "500 g"
+  },
+  {
+    "id": 12,
+    "name": "Garlic",
+    "img": "https://www.bbassets.com/media/uploads/p/m/30005201_6-fresho-garlic-peeled.jpg?tr=w-154,q-80",
+    "brand": "Farm Fresh",
+    "categories": "Legume",
+    "originalPrice": 100,
+    "discountPrice": 85,
+    "units": "500 g"
+  },
+  {
+    "id": 13,
+    "name": "Tusli Leaves",
+    "img": "https://www.bbassets.com/media/uploads/p/m/30006463_6-fresho-tulsi-leaves.jpg?tr=w-154,q-80",
+    "brand": "Green Basket",
+    "categories": "Root Vegetable",
+    "originalPrice": 70,
+    "discountPrice": 59,
+    "units": "500 g"
+  },
+  {
+    "id": 14,
+    "name": "Lemon",
+    "img": "https://www.bbassets.com/media/uploads/p/m/40219224_7-fresho-lemon-gondhoraj-organically-grown.jpg?tr=w-154,q-80",
+    "brand": "Fresh Valley",
+    "categories": "Gourd",
+    "originalPrice": 45,
+    "discountPrice": 37,
+    "units": "1 pc"
+  },
+  {
+    "id": 15,
+    "name": "Ghandharaj Lemon",
+    "img": "https://www.bbassets.com/media/uploads/p/m/40100022_3-fresho-lemon-gandharaj.jpg?tr=w-154,q-80",
+    "brand": "Nature Fresh",
+    "categories": "Gourd",
+    "originalPrice": 90,
+    "discountPrice": 75,
+    "units": "500 g"
+  }
+]
