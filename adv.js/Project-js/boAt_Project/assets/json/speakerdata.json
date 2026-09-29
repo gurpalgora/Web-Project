@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_Arc__1.png?v=1754993441&width=200",
+    "offer": "20W Signature Sound",
+    "rating": "4.3",
+    "name": "boAt Stone Arc",
+    "price": "₹1,999",
+    "originalprice": "₹6,990",
+    "discount": "71% off"
+  },
+  {
+    "id": 2,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/FIs_aavante_joy__1.png?v=1756207675&width=200",
+    "offer": "10W Powerful",
+    "rating": "5.0",
+    "name": "boAt Aavante Bar Joy",
+    "price": "₹5,999",
+    "originalprice": "₹6,999",
+    "discount": "14% off"
+  },
+  {
+    "id": 3,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_350_pro_1.png?v=1742303499&width=200",
+    "offer": "12 Hours Playback",
+    "rating": "4.6",
+    "name": "boAt Stone 350 Pro",
+    "price": "₹2,099",
+    "originalprice": "₹4,999",
+    "discount": "58% off"
+  },
+  {
+    "id": 4,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Party_pal_30.png?v=1758803604&width=200",
+    "offer": "25W RMS Sound",
+    "rating": "4.6",
+    "name": "boAt PartyPal 30",
+    "price": "₹2,999",
+    "originalprice": "₹8,490",
+    "discount": "65% off"
+  },
+  {
+    "id": 5,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB_480.jpg?v=1698304318&width=200",
+    "offer": "10W RMS Sound",
+    "rating": "4.7",
+    "name": "boAt Aavante Bar 480",
+    "price": "₹1,099",
+    "originalprice": "₹3,490",
+    "discount": "69% off"
+  },
+  {
+    "id": 6,
+    "top": "💵 EXTRA ₹100 OFF",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_Spinx_Pro.jpg?v=1709718328&width=200",
+    "offer": "8 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Stone Spinx Pro",
+    "price": "₹2,999",
+    "originalprice": "₹9,999",
+    "discount": "70% off"
+  }
+]

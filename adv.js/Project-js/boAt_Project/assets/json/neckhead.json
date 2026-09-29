@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/412.png?v=1752740230&width=200",
+    "offer": "60 Hrs Playback",
+    "rating": "4.8",
+    "name": "boAt Rockerz 412",
+    "price": "₹1,599",
+    "originalprice": "₹2,999",
+    "discount": "47% off"
+  },
+  {
+    "id": 2,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/LR_480.png?v=1733741345&width=200",
+    "offer": "60 Hours Playback",
+    "rating": "4.5",
+    "name": "boAt Rockerz 480",
+    "price": "₹1,899",
+    "originalprice": "₹3,799",
+    "discount": "50% off"
+  },
+  {
+    "id": 3,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerx_Plus_550.png?v=1755765850&width=200",
+    "offer": "100 Hours Playback",
+    "rating": "4.5",
+    "name": "boAt Rockerz Plus 550",
+    "price": "₹2,299",
+    "originalprice": "₹4,990",
+    "discount": "54% off"
+  },
+  {
+    "id": 4,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/LR_fe121478-cff1-4470-bd51-447de036dd1e.png?v=1755498271&width=200",
+    "offer": "80 Hours Playback",
+    "rating": "5.0",
+    "name": "boAt Rockerz 512 ANC",
+    "price": "₹3,099",
+    "originalprice": "₹7,990",
+    "discount": "61% off"
+  },
+  {
+    "id": 5,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/413_lifestyle.png?v=1752737623&width=200",
+    "offer": "60 Hrs Playback",
+    "rating": "5.0",
+    "name": "boAt Rockerz 413",
+    "price": "₹1,499",
+    "originalprice": "₹2,999",
+    "discount": "50% off"
+  },
+  {
+    "id": 6,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/R430-LR.jpg?v=1730279165&width=200",
+    "offer": "ENx™ Technology",
+    "rating": "4.6",
+    "name": "boAt Rockerz 430",
+    "price": "₹1,499",
+    "originalprice": "₹2,490",
+    "discount": "40% off"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/CHROME_IVORY_Lifestyle.png?v=1772019474&width=200",
+    "top": "💵 EXTRA ₹300 OFF",
+    "offer": "AMOLED Display",
+    "rating": null,
+    "description": "boAt Chrome Ivory",
+    "originalPrice": "₹5,999",
+    "Price": "₹5,199",
+    "discount": "13% off"
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gem.png?v=1736855558&width=200",
+    "top": "Just Launched",
+    "offer": "AMOLED Display",
+    "rating": "5.0",
+    "description": "boAt Enigma Gem",
+    "originalPrice": "₹8,499",
+    "Price": "₹3,299",
+    "discount": "61% off"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Chrome_Iris_Lifestyle.png?v=1770270025&width=200",
+    "top": "💵 EXTRA ₹300 OFF",
+    "offer": "AMOLED Display",
+    "rating": null,
+    "description": "boAt Chrome Iris",
+    "originalPrice": "₹5,999",
+    "Price": "₹3,699",
+    "discount": "38% off"
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/combined.jpg?v=1734959185&width=200",
+    "top": "Just Launched",
+    "offer": "Luminous Display",
+    "rating": "4.7",
+    "description": "boAt Enigma Daze",
+    "originalPrice": "₹8,999",
+    "Price": "₹1,999",
+    "discount": "78% off"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lunar_Vista.webp?v=1702287205&width=200",
+    "top": "🏆 Bestseller",
+    "offer": "Round Display",
+    "rating": "4.7",
+    "description": "boAt Lunar Vista",
+    "originalPrice": "₹7,999",
+    "Price": "₹1,599",
+    "discount": "80% off"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lifestyle_render_154400cd-4bd3-4dd8-9c4a-e56f27910199.jpg?v=1729580370&width=200",
+    "top": "Just Launched",
+    "offer": "BT Calling",
+    "rating": "4.4",
+    "description": "boAt Lunar Discovery",
+    "originalPrice": "₹8,499",
+    "Price": "₹1,599",
+    "discount": "81% off"
+  }
+]

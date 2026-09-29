@@ -1,0 +1,62 @@
+[
+  {
+    "img": "assets/img/productcart1.png",
+    "description": "boAt Airdopes 181 Pro",
+    "originalprice": "₹4,990",
+    "discount": "72% off",
+    "price": "₹1,399",
+    "offer": "100 Hours Playback",
+    "rating": "4.6",
+    "topper":"Free Spotify"
+  },
+  {
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave_Fury.webp?v=1702287204&width=200",
+    "description": "boAt Wave Fury",
+    "originalprice": "₹6,990",
+    "discount": "78% off",
+    "price": "₹1,549",
+    "offer": "BT Calling",
+    "rating": "4.9",
+    "topper":"Bestseller"
+  },
+  {
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerz_110.jpg?v=1698387127&width=200",
+    "description": "boAt Rockerz 110",
+    "originalprice": "₹2,490",
+    "discount": "60% off",
+    "price": "₹999",
+    "offer": "40 Hours Playback",
+    "rating": "4.8",
+    "topper":"New Launch"
+  },
+  {
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ion_anc_1.png?v=1740725927&width=200",
+    "description": "boAt Nirvana Ion ANC",
+    "originalprice": "₹9,990",
+    "discount": "80% off",
+    "price": "₹1,999",
+    "offer": "Noise Cancellation",
+    "rating": "4.9",
+    "topper":"Engraving Available"
+  },
+  {
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PB400_628ae039-11be-4f0b-b723-651e2bb05de7.jpg?v=1700300890&width=200",
+    "description": "boAt Energyshroom PB40",
+    "originalprice": "₹4,499",
+    "discount": "60% off",
+    "price": "₹1,799",
+    "offer": "20000mAh Power Bank",
+    "rating": "4.7",
+    "topper":"Engraving Available"
+  },
+  {
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_180.jpg?v=1702014281&width=200",
+    "description": "boAt Stone 180",
+    "originalprice": "₹2,490",
+    "discount": "48% off",
+    "price": "₹1,299",
+    "offer": "08 Hours Playback",
+    "rating": "4.8",
+    "topper":"Trending"
+  }
+]

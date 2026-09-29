@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "🎁 Free Spotify",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_Supreme_1.jpg?v=1711262453&width=200",
+    "offer": "50 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes Supreme",
+    "price": "₹1,899",
+    "originalprice": "₹5,999",
+    "discount": "68% off"
+  },
+  {
+    "id": 2,
+    "top": "🚀 Engraving Available",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131_f04f74fd-45d4-4614-85cf-6ccf69c4cf90.jpg?v=1691395049&width=200",
+    "offer": "60 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes 131",
+    "price": "₹999",
+    "originalprice": "₹2,999",
+    "discount": "67% off"
+  },
+  {
+    "id": 3,
+    "top": "🚀 Engraving Available",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Airdopes_138_Pro.jpg?v=1702618467&width=200",
+    "offer": "45 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes 138 PRO",
+    "price": "₹1,568",
+    "originalprice": "₹2,999",
+    "discount": "48% off"
+  },
+  {
+    "id": 4,
+    "top": "🚀 Engraving Available",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.png?v=1745235467&width=200",
+    "offer": "40 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes 161",
+    "price": "₹1,099",
+    "originalprice": "₹2,490",
+    "discount": "56% off"
+  },
+  {
+    "id": 5,
+    "top": "🚀 Engraving Available",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/141_ls.jpg?v=1741083860&width=200",
+    "offer": "42 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes 141",
+    "price": "₹999",
+    "originalprice": "₹4,499",
+    "discount": "78% off"
+  },
+  {
+    "id": 6,
+    "top": "🚀 Engraving Available",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Airdopes-163.jpg?v=1682408982&width=200",
+    "offer": "17 Hours Playback",
+    "rating": "4.8",
+    "name": "boAt Airdopes 163",
+    "price": "₹1,599",
+    "originalprice": "₹2,490",
+    "discount": "36% off"
+  }
+]

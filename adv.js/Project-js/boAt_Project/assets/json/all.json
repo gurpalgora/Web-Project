@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.png?v=1745235467&width=200",
+    "top": "✍️ Engraving Available",
+    "description": "boAt Airdopes 161",
+    "feature": "40 Hours Playback",
+    "originalprice": "₹2,490",
+    "discount": "56%",
+    "price": "₹1,099",
+    "off": "56% off",
+    "rating": "4.8"
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Storm_Call_3.jpg?v=1712640243&width=200",
+    "top": "Just Launched",
+    "description": "boAt Storm Call 3",
+    "feature": "BT Calling",
+    "originalprice": "₹8,499",
+    "discount": "84%",
+    "price": "₹1,399",
+    "off": "84% off",
+    "rating": "4.7"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Nirvana_Ion.jpg?v=1697621745&width=200",
+    "top": "✍️ Engraving Available",
+    "description": "boAt Nirvana Ion",
+    "feature": "120 Hours Playback",
+    "originalprice": "₹7,990",
+    "discount": "77%",
+    "price": "₹1,799",
+    "off": "77% off",
+    "rating": "4.9"
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/412.png?v=1752740230&width=200",
+    "top": "🎁 Free Spotify",
+    "description": "boAt Rockerz 412",
+    "feature": "60 Hrs Playback",
+    "originalprice": "₹2,999",
+    "discount": "47%",
+    "price": "₹1,599",
+    "off": "47% off",
+    "rating": "4.8"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB_480.jpg?v=1698304318&width=200",
+    "top": "🎁 Free Spotify",
+    "description": "boAt Avante Bar 480",
+    "feature": "10W RMS Sound",
+    "originalprice": "₹3,490",
+    "discount": "69%",
+    "price": "₹1,099",
+    "off": "69% off",
+    "rating": "4.7"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/300_bLACK-min.png?v=1725983268&width=200",
+    "top": "💵 EXTRA ₹100 OFF",
+    "description": "boAt EnergyShroom PB30",
+    "feature": "10000mAh Battery",
+    "originalprice": "₹3,499",
+    "discount": "57%",
+    "price": "₹1,499",
+    "off": "57% off",
+    "rating": "5.0"
+  }
+]

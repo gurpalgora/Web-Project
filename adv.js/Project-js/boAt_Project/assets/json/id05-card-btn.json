@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/car-charger-main-image_1e0addf3-ca17-46c3-94ac-c7b60b752dea_300x.png?v=1663154266",
+    "offer": "QUICK CHARGE 3.0",
+    "rating": "5.0",
+    "name": "boAt Dual Rapid QC 3.0 ",
+    "price": "₹499",
+    "originalprice": "₹899",
+    "discount": "44% off"
+  },
+  {
+    "id": 2,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/11_300x.png?v=1662706696",
+    "offer": "18W Fast Charger",
+    "rating": "5.0",
+    "name": "boAt DualFast CarCharger",
+    "price": "₹499",
+    "originalprice": "₹999",
+    "discount": "50% off"
+  },
+  {
+    "id": 3,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/6875f924-20d3-4cb6-933d-5319504c7baa_36bb7013-05b6-4357-8048-f0e307a2a282_300x.png?v=1662706404",
+    "offer": "QUICK CHARGE 3.0",
+    "rating": "4.9",
+    "name": "boAt DualFast CarCharger",
+    "price": "₹499",
+    "originalprice": "₹999",
+    "discount": "50% off"
+  },
+  {
+    "id": 4,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/main_29e36d5a-17aa-4793-a817-3aa56fd1bfdf_300x.png?v=1633002682",
+    "offer": "QUICK CHARGE 3.0",
+    "rating": "5.0",
+    "name": "boAt DualFast CarCharger",
+    "price": "₹499",
+    "originalprice": "₹999",
+    "discount": "50% off"
+  },
+  {
+    "id": 5,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/qc-pd_main_TC_300x.png?v=1627302470",
+    "offer": "18W Fast Charger",
+    "rating": "4.9",
+    "name": "boAt DualFast CarCharger",
+    "price": "₹499",
+    "originalprice": "₹1,499",
+    "discount": "67% off"
+  },
+  {
+    "id": 6,
+    "top": "📦 Restocking Soon",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/qc-pd_main_pd_300x.png?v=1627302177",
+    "offer": "18W Fast Charger",
+    "rating": "5.0",
+    "name": "boAt DualFast CarCharger",
+    "price": "₹499",
+    "originalprice": "₹1,499",
+    "discount": "67% off"
+  }
+]

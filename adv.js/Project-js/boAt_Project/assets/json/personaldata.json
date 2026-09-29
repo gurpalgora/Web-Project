@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.png?v=1745235467&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "40 Hours Playback",
+    "rating": 4.8,
+    "description": "boAt Airdopes 161",
+    "originalPrice": "₹2,490",
+    "Price": "₹1,099",
+    "discount": "56% off"
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Nirvana_Ion.jpg?v=1697621745&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "120 Hours Playback",
+    "rating": 4.9,
+    "description": "boAt Nirvana Ion",
+    "originalPrice": "₹7,990",
+    "Price": "₹1,799",
+    "discount": "77% off"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PB400_628ae039-11be-4f0b-b723-651e2bb05de7.jpg?v=1700300890&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "20000mAh Power Bank",
+    "rating": 4.7,
+    "description": "boAt Energyshroom PB40",
+    "originalPrice": "₹4,499",
+    "Price": "₹1,799",
+    "discount": "60% off"
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ion_anc_1.png?v=1740725927&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "Crest-AI Enabled",
+    "rating": 4.9,
+    "description": "boAt Nirvana Ion ANC",
+    "originalPrice": "₹9,990",
+    "Price": "₹2,399",
+    "discount": "76% off"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131_f04f74fd-45d4-4614-85cf-6ccf69c4cf90.jpg?v=1691395049&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "60 Hours Playback",
+    "rating": 4.8,
+    "description": "boAt Airdopes 131",
+    "originalPrice": "₹2,990",
+    "Price": "₹999",
+    "discount": "67% off"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Airdopes_148.jpg?v=1698909797&width=200",
+    "top": "✍️ Engraving Available",
+    "offer": "42 Hours Playback",
+    "rating": 4.9,
+    "description": "boAt Airdopes 148",
+    "originalPrice": "₹4,490",
+    "Price": "₹1,399",
+    "discount": "69% off"
+  }
+]

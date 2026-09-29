@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Aavante_Prime_7.1.4_7050DA.png?v=1757914102&width=200",
+    "offer": "700W RMS Sound",
+    "rating": "5.0",
+    "name": "boAt Aavante Prime 7.1.4",
+    "price": "₹21,999",
+    "originalprice": "₹89,990",
+    "discount": "76% off"
+  },
+  {
+    "id": 2,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/lifestyle_bae842d7-5bf0-4e99-9614-88786d751c72.png?v=1753361523&width=200",
+    "offer": "625W RMS Sound",
+    "rating": "4.3",
+    "name": "boAt Aavante Prime 5.2.4",
+    "price": "₹19,999",
+    "originalprice": "₹74,990",
+    "discount": "73% off"
+  },
+  {
+    "id": 3,
+    "top": "💵 EXTRA ₹400 OFF",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB_Prime_5000.jpg?v=1749535940&width=200",
+    "offer": "500W RMS Sound",
+    "rating": "5.0",
+    "name": "boAt Aavante Prime 5.1.5",
+    "price": "₹14,999",
+    "originalprice": "₹37,990",
+    "discount": "61% off"
+  },
+  {
+    "id": 4,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/LR_1627f24c-e84d-4d64-98f7-5b4d59726b15.png?v=1752211050&width=200",
+    "offer": "550W RMS Sound",
+    "rating": "5.0",
+    "name": "boAt Aavante Prime 5.1.2",
+    "price": "₹17,999",
+    "originalprice": "₹49,990",
+    "discount": "64% off"
+  },
+  {
+    "id": 5,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Avante_2450.png?v=1756878458&width=200",
+    "offer": "240W R.M.S",
+    "rating": "5.0",
+    "name": "boAt Aavante 2.1 2450",
+    "price": "₹7,999",
+    "originalprice": "₹29,990",
+    "discount": "73% off"
+  },
+  {
+    "id": 6,
+    "top": "💵 EXTRA ₹300 OFF",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB_Orion_Plus.jpg?v=1714468423&width=200",
+    "offer": "220W RMS Sound",
+    "rating": "5.0",
+    "name": "boAt Aavante Bar 2400",
+    "price": "₹7,999",
+    "originalprice": "₹24,990",
+    "discount": "68% off"
+  }
+]

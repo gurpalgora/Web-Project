@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lunar_Discovery_lifestyle.png?v=1764238352&width=200",
+    "offer": "1.39” HD Display",
+    "rating": "5.0",
+    "name": "boAt Lunar Discovery Neo",
+    "price": "₹1,499",
+    "originalprice": "₹6,999",
+    "discount": "79% off"
+  },
+  {
+    "id": 2,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lifestyle_render_154400cd-4bd3-4dd8-9c4a-e56f27910199.jpg?v=1729580370&width=200",
+    "offer": "BT Calling",
+    "rating": "4.4",
+    "name": "boAt Lunar Discovery",
+    "price": "₹1,599",
+    "originalprice": "₹8,499",
+    "discount": "81% off"
+  },
+  {
+    "id": 3,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/LR_8d4944c8-c5a2-4e0e-83a5-7bf65ba385e2.png?v=1758615501&width=200",
+    "offer": "1.83” HD Display",
+    "rating": "5.0",
+    "name": "boAt Wave Call 3",
+    "price": "₹1,399",
+    "originalprice": "₹8,999",
+    "discount": "84% off"
+  },
+  {
+    "id": 4,
+    "top": "🚀 New Launch",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave_call_2_plus__1.png?v=1759155974&width=200",
+    "offer": "BT Calling",
+    "rating": "5.0",
+    "name": "boAt Wave Call 2 Plus",
+    "price": "₹1,199",
+    "originalprice": "₹7,499",
+    "discount": "84% off"
+  },
+  {
+    "id": 5,
+    "top": "💵 EXTRA ₹400 OFF",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stormcall_1.webp?v=1709108774&width=200",
+    "offer": "BT Calling",
+    "rating": "4.8",
+    "name": "boAt Storm Call",
+    "price": "₹1,849",
+    "originalprice": "₹7,999",
+    "discount": "77% off"
+  },
+  {
+    "id": 6,
+    "top": "💵 EXTRA ₹300 OFF",
+    "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lunar_Atlas.png?v=1770117760&width=200",
+    "offer": "GPS Tracking",
+    "rating": "4.8",
+    "name": "boAt Lunar Atlas",
+    "price": "₹1,999",
+    "originalprice": "₹8,999",
+    "discount": "78% off"
+  }
+]
