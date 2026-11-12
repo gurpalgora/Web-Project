@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" href="assets/img/prime-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Prime Vedio: Watch movie,TV shows,Sports and live TV </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="im-g">
+            <img src="assets/img/primelogo.png" alt="">
+        </div>
+        <div class="categories">
+            <span>Home</span>
+            <span>Free to me</span>
+            <span>Movies</span>
+            <span>TV show</span>
+            <span>Live TV</span>
+            <span>Subscription</span>
+        </div>
+        <div class="input-bar">
+            <i class="fa fa-search"></i>
+            <span>EN</span>
+            <i style="margin-left: 20px; font-size: 21px;" class="fa fa-user-circle"></i>
+        </div>
+        <div class="user">
+            <button>Join Prime</button>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero-img">
+            <img src="assets/img/primeimage.png" alt="">
+        </div>
+        <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+        <div class="hero-content">
+            <p>Hindi | Tamil | Telugu</p>
+            <div style="display: flex; gap: 20px;">
+                <button>Join Prime<br> Watch Now</button>
+                <button style="border-radius: 190px;"><i class="fa fa-plus"></i></button>
+            </div>
+            <span><i class="fa fa-shopping-bag" style="color: gold;"></i> Watch with a Prime membership</span>
+        </div>
+    </section>
+    <div class="cart">
+        <p>Recently added: Watch for free</p>
+        <p>See more <i class="fa-solid fa-angle-right"></i></p>
+    </div>
+    <div class="slider-container">
+        <button class="prev-btn">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+    <div class="watch-now"></div>
+    <button class="next-btn">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+</div>
+    <div class="top-prime">
+        <p>Top 10 with Prime</p>
+        <i style="color: white;" class="fa-solid fa-arrow-trend-up"></i>
+    </div>
+    <div class="prime-container">
+         <button class="prime-btn">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="prime-now"></div>
+        <button class="primee-btn">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+    </div>
+    <div class="all-time">
+        <p>All time Favourites</p>
+        <p style="cursor: pointer;">See more <i class="fa-solid fa-angle-right"></i></p>
+    </div>
+    <div class="time-container">
+          <button class="time-btn">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="time-fav"></div>
+         <button class="timee-btn">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+    </div>
+    <div class="ser-ies">
+        <p>Featured Originals: Series</p>
+        <p style="cursor: pointer;">See more <i class="fa-solid fa-angle-right"></i></p>
+    </div>
+     <div class="original-series">
+          <button class="series-btn">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+         <div class="orig-series"></div>
+          <button class="seriess-btn">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+     </div>
+    <div class="forkids">
+        <p>Featured Originals For Kids</p>
+        <p style="cursor: pointer;">See more <i class="fa-solid fa-angle-right"></i></p>
+    </div>
+    <div class="kids-container">
+         <button class="kids-btn">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="kids-only"></div>
+  <button class="kidss-btn">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+    </div>
+    <div class="footer">
+        <div class="logo">
+            <img src="assets/img/primelogo-footer.png" alt="">
+        </div>
+        <div class="info">
+            <ul>
+               <li>
+                   <a href="">Terms and Privacy Notice</a>
+               </li>
+               <li>
+                   <a href="">Send us Feedback</a>
+               </li>
+               <li>
+                   <a href="">Help</a>
+               </li>
+                <p><i style="font-size: 12px;"><i class="fa-regular fa-copyright"></i></i> 1996-2026, Amazon.com, Inc. or its affiliates</p>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const images = [
+            "assets/img/primeimage.png",
+            "assets/img/primeimage3.png",
+            "assets/img/primeimage1.png",
+            "assets/img/primeimage9.png",
+            "assets/img/primeimage10.png",
+            "assets/img/primeimage15.png",
+            "assets/img/primeimage2.png",
+            "assets/img/primeimage12.png",
+            "assets/img/primeimage11.png",
+            "assets/img/primeimage13.png",
+            "assets/img/primeimage14.png",
+            "assets/img/primeimage4.png",
+            "assets/img/primeimage5.png",
+            "assets/img/primeimage6.png",
+            "assets/img/primeimage7.png",
+            "assets/img/primeimage8.png",
+        ];
+
+        let index = 0;
+        let hero = document.querySelector(".hero-img img");
+        const prev = document.querySelector(".prev");
+        const next = document.querySelector(".next");
+        
+function showImage() {
+    hero.src = images[index];
+}
+
+next.addEventListener("click", () => {
+    index++;
+
+    if (index >= images.length) {
+        index = 0;
+    }
+
+    showImage();
+});
+
+prev.addEventListener("click", () => {
+    index--;
+
+    if (index < 0) {
+        index = images.length - 1;
+    }
+
+    showImage();
+});
+
+setInterval(() => {
+    index++;
+
+    if (index >= images.length) {
+        index = 0;
+    }
+
+    showImage();
+}, 3500);
+          
+
+        fetch("assets/json/index.json")
+            .then(res => res.json())
+            .then(data => {
+                const container = document.querySelector(".watch-now")
+                data.forEach(product => {
+                    const card = document.createElement("div")
+                    card.innerHTML = `
+        <img src="${product.img}" alt="">
+        
+        `
+                    container.append(card);
+                });
+            })
+        fetch("assets/json/index.json")
+            .then(res => res.json())
+            .then(data => {
+                const container = document.querySelector(".prime-now")
+                data.forEach(product => {
+                    const cart = document.createElement("div")
+                    cart.innerHTML = `
+        <img src="${product.img1}" alt="">
+        
+        `
+                    container.append(cart);
+                });
+            })
+        fetch("assets/json/index.json")
+            .then(res => res.json())
+            .then(data => {
+                const container = document.querySelector(".time-fav")
+                data.forEach(product => {
+                    const card = document.createElement("div")
+                    card.innerHTML = `
+           <img src="${product.img2}" alt="">
+            
+            `
+                    container.append(card);
+                });
+            })
+        fetch("assets/json/index.json")
+            .then(res => res.json())
+            .then(data => {
+                const container = document.querySelector(".orig-series")
+                data.forEach(product => {
+                    const card = document.createElement("div")
+                    card.innerHTML = `
+           <img src="${product.img3}" alt="">
+            
+            `
+                    container.append(card)
+                });
+            })
+            fetch("assets/json/index.json")
+            .then(res=>res.json())
+            .then(data=>{
+                const container=document.querySelector(".kids-only")
+              data.forEach(product=>{
+                const card=document.createElement("div")
+                card.innerHTML=`
+                <img src="${product.img4}" alt="">
+                `
+                if(index===0){
+                    card.classList.add("first-card");
+                }
+                if(index === data.length -1){
+                    card.classList.add("last-card")
+                }
+                container.append(card)
+              });
+            })
+
+            const sliderow=document.querySelector(".watch-now")
+            const prevbtn=document.querySelector(".prev-btn")
+            const nextbtn=document.querySelector(".next-btn")
+
+            nextbtn.addEventListener("click", () => {
+    sliderow.scrollBy({
+        left: 500,
+        behavior: "smooth"
+    });
+});
+
+prevbtn.addEventListener("click", () => {
+    sliderow.scrollBy({
+        left: -500,
+        behavior: "smooth"
+    });
+});
+
+
+const slideroll=document.querySelector(".prime-now")
+const primebtn=document.querySelector(".prime-btn")
+const primeebtn=document.querySelector(".primee-btn")
+ primeebtn.addEventListener("click", () => {
+    slideroll.scrollBy({
+        left: 500,
+        behavior: "smooth"
+    });
+});
+
+primebtn.addEventListener("click", () => {
+    slideroll.scrollBy({
+        left: -500,
+        behavior: "smooth"
+    });
+});
+
+const sliderolle=document.querySelector(".time-fav")
+const timeleft=document.querySelector(".time-btn")
+const timeright=document.querySelector(".timee-btn")
+timeright.addEventListener("click",()=>{
+    sliderolle.scrollBy({
+        left:500,
+        behavior:"smooth",
+    });
+});
+
+timeleft.addEventListener("click",()=>{
+    sliderolle.scrollBy({
+        left:-500,
+        behavior:"smooth",
+    });
+});           
+
+const slideside=document.querySelector(".kids-only")
+const kidsbtn=document.querySelector(".kids-btn")
+const kidssbtn=document.querySelector(".kidss-btn")
+kidsbtn.addEventListener("click",()=>{
+    slideside.scrollBy({
+        left:-500,
+        behavior:"smooth",
+    })
+})
+kidssbtn.addEventListener("click",()=>{
+    slideside.scrollBy({
+        left:500,
+        behavior:"smooth",
+    })
+})
+const slidescroll=document.querySelector(".orig-series")
+const seriesbtn=document.querySelector(".series-btn")
+const seriessbtn=document.querySelector(".seriess-btn")
+seriesbtn.addEventListener("click",()=>{
+    slidescroll.scrollBy({
+        left:-500,
+        behavior:"smooth",
+    })
+})
+seriessbtn.addEventListener("click",()=>{
+  slidescroll.scrollBy({
+    left:500,
+    behavior:"smooth",
+  })
+})
+    </script>
+</body>
+
+</html>
